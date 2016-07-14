@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="myresource.shtml">我的资源单<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="foresource.shtml">我的关注<i></i></a></span>
+					</div>
+					<div class="member-search mt20 mb20 clearfix">
+						<div class="dv-tit zz">资源单名称：</div>
+						<div class="dv-txt zz ml05">
+							<input type="text" class="in-txt" placeholder="请输入资源单名称">
+						</div>
+						<div class="dv-btn zz ml10">
+							<input type="submit" class="btn-search" value="查询">
+						</div>
+					</div>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table resource-table">
+						<tr>
+							<td align="left" valign="middle" width="40%">资源单名称</td>
+							<td align="center" valign="middle" width="20%">上传时间</td>
+							<td align="center" valign="middle" width="20%">下载次数</td>
+							<td align="center" valign="middle" width="20%">操作</td>
+						</tr>
+						<!-- 没有数据时显示
+							<div class="member-data-none">
+								暂无匹配数据
+							</div>
+						 -->
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="40%">网上上海桥冶实业有限公司资源903.xls</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 19:23:50</td>
+							<td align="center" valign="middle" width="20%">100</td>
+							<td align="center" valign="middle" width="20%">
+								<div class="clearfix margin-auto" style="width: 64px;">
+									<a href="" target="_blank" class="color-blue btn hover-line">查看</a>
+									<span class="line zz">|</span>
+									<a href="" target="_blank" class="color-blue btn hover-line">下载</a>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<div class="yeehim-pager mt40 mb40 clearfix">
+						<ul>
+							<li class="prev"><span>上一页</span></li>
+							<li class="current"><span>1</span></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li class="next"><a href="">下一页</a></li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						$(".member-data-table tr:eq(0)").addClass("bg");
+						$(".member-data-table tr:not(:first)").hover(function(){
+							$(this).addClass("hover");
+						},function(){
+							$(this).removeClass("hover");
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="images/basic.css"/>
+<link rel="stylesheet" type="text/css" href="images/style.css"/>
+<script type="text/javascript" src="images/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="images/superslide.2.1.js"></script>
+
+</head>
+<body>
+	<div class="container-grid">
+		<div class="purchase-header pt20 pb20 clearfix">
+			<div class="zz logo"><a href="/"><img src="images/logo.gif" alt="" /></a></div>
+			<div class="purchase-tit zz mt30 ml40 yahei">欢迎注册</div>
+		</div>
+		<div class="login-layer clearfix">
+			<div class="left zz"><img src="images/login_bg.jpg" alt="" width="790" height="350" /></div>
+			<div class="right yy">
+				<h3 class="font-s-18 font-w-n yahei">用户登录</h3>
+				<div class="msg-warn mt10" style="display: none;"><b></b>公共场所不建议自动登录，以防账号丢失</div>
+				<div class="msg-error mt10"><b></b>账户名与密码不匹配，请重新输入</div>
+				<form action="">
+					<div class="form-login mt10">
+						<div class="item item-fore1 item-focus mb20">
+		                    <label for="loginname" class="login-label name-label"></label>
+		                    <input id="loginname" type="text" class="itxt" name="loginname" placeholder="邮箱/用户名/已验证手机">
+		                    <span class="clear-btn" style="display: none;"></span>
+		                </div>
+		                <div class="item item-fore1 mb20">
+		                    <label for="loginname" class="login-label pwd-label"></label>
+		                    <input id="loginname" type="text" class="itxt" name="loginname" placeholder="邮箱/用户名/已验证手机">
+		                    <span class="clear-btn" style="display: none;"></span>
+		                </div>
+		                <div class="item item-fore3 mb20">
+                            <div class="safe clearfix">
+                                <span class="zz">
+                                    <input id="autoLogin" name="chkRememberMe" type="checkbox" class="jdcheckbox" tabindex="3">
+                                    <label class="color-666">自动登录</label>
+                                </span>
+                                 <span class="yy">
+                                    <a href="findpwd.shtml" class="color-666 hover-orange" target="_blank">忘记密码?</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item item-fore5 mb20">
+	                        <input type="submit" class="btn-submit hover-light" value="登&nbsp;&nbsp;录" />
+	                    </div>
+	                    <div class="item item-fore6 txt-center">
+	                        <font class="color-999">还没有找铝网账号？</font><a href="" target="_blank" class="color-light-red hover-line">马上注册！</a>
+	                    </div>
+		            </div>
+                </form>
+			</div>
+		</div>
+		<div class="grid-12 mt40 mb40">
+			<p class="txt-center">
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">关于我们</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">法律声明</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">诚聘英才</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">投资洽谈</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">友情链接</a>
+			</p>
+			<p class="color-666 txt-center mt10">COPYRIGHT 铝材超市 版权所有 www.zhaolv.com 苏ICP备 24501342213915号</p>
+			<p class="txt-center mt15"><img src="images/index_04.gif" alt="" class="margin-auto" /></p>
+		</div>
+	</div>
+</body>
+</html>

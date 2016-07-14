@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="mb40 font-s-16 yahei">个人主页</div>
+					<div class="clearfix">
+						<div class="member-ava zz">
+							<div class="tit txt-center color-FFF">采购商</div>
+							<img src="images/ava.gif" alt="" width="75" height="75" />
+						</div>
+						<div class="member-company zz mt10 ml20 mr40">
+							<p class="font-s-16 yahei line-h-30">陈先生</p>
+							<p class="font-s-16 yahei line-h-30">重庆江门易科技有限公司</p>
+						</div>
+						<div class="member-count mt20 zz">
+							<p class="font-s-16 yahei line-h-30 color-orange">0</p>
+							<p class="font-s-14 yahei line-h-30 color-999">需求数（条）</p>
+						</div>
+						<div class="member-count mt20 zz">
+							<p class="font-s-16 yahei line-h-30 color-orange">0</p>
+							<p class="font-s-14 yahei line-h-30 color-999">订单数（条）</p>
+						</div>
+						<div class="member-count mt20 zz">
+							<p class="font-s-16 yahei line-h-30 color-orange">0.0</p>
+							<p class="font-s-14 yahei line-h-30 color-999">积分</p>
+						</div>
+						<div class="member-opt yy">
+							<a href="" class="color-FFF hover-light">发布采购</a>
+						</div>
+					</div>
+					<div class="memeber-idn-line mt40 mb40"></div>
+					<div class="member-tab">
+						<span class="current"><a href="###">最近订单提醒<i></i></a></span>
+					</div>
+					<!-- 没有数据时显示
+						<div class="member-data-none">
+							暂无匹配数据
+						</div>
+					 -->
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr>
+							<td align="center" valign="middle" width="20%">订单号</td>
+							<td align="center" valign="middle" width="10%">数量</td>
+							<td align="center" valign="middle" width="10%">重量</td>
+							<td align="center" valign="middle" width="20%">金额合计</td>
+							<td align="center" valign="middle" width="10%">状态</td>
+							<td align="center" valign="middle" width="20%">下单时间</td>
+							<td align="center" valign="middle" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="20%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">XS15091410340542</a>
+							</td>
+							<td align="center" valign="middle" width="10%">3件</td>
+							<td align="center" valign="middle" width="10%">84.62吨</td>
+							<td align="center" valign="middle" width="20%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">已成交</td>
+							<td align="center" valign="middle" width="20%">2015-01-01 10:11:30</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="order_detail.shtml" target="_blank" class="color-blue hover-line">订单详情</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".member-data-table tr:eq(0)").addClass("bg");
+						$(".member-data-table tr:not(:first)").hover(function(){
+							$(this).addClass("hover");
+						},function(){
+							$(this).removeClass("hover");
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

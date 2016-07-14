@@ -1,0 +1,2785 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>找铝网 - 铝材网上交易平台</title>
+<meta content="找铝网,中国找铝网,铝材,铝材价格,铝型材,铝板,铝带,铝箔,铝卷" name="keywords"> 
+<meta name="description" content="找铝网，国内首家专业铝材电子交易平台。为铝行业提供铝材,铝型材,铝板,铝带,铝箔,铝卷现货买卖，及在线订单采购服务。"> 
+<!--#include file="head.htm" -->
+<script type="text/javascript">
+	$(function() {
+		//Tooltips
+		$(".tip-trigger").hover(function(){
+			tip = $(this).find(".tip");
+			tip.show();
+		}, function() {
+			tip.hide();	  
+		}).mousemove(function(e) {
+			var mousex = e.pageX + 20;
+			var mousey = e.pageY + 20;
+			var tipWidth = tip.width();
+			var tipHeight = tip.height();
+			
+			var tipVisX = $(window).width() - (mousex + tipWidth);
+			var tipVisY = $(window).height() - (mousey + tipHeight);
+			  
+			if ( tipVisX < 20 ) { 
+				mousex = e.pageX - tipWidth - 20;
+			} if ( tipVisY < 20 ) {
+				mousey = e.pageY - tipHeight - 20;
+			} 
+			tip.css({  top: mousey, left: mousex });
+		});
+	});
+</script>
+
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="idn-top">
+		<div class="container-grid clearfix">
+			<div class="grid-12">
+				<div class="yeehim-global-nav zz">
+					<ul id="global_nav">
+						<li class="global-main">
+							<div class="bg"><a href="" target="_blank"></a></div>
+							<h3 class="tit yahei font-s-16 rel font-w-n">铝卷<i class="arrow"></i></h3>
+							<div class="pl15 yahei color-666">昨日成交 <font class="color-orange font-w-b">47972.946</font> 吨</div>
+							<!-- 铝卷 -->
+							<div class="global-sub global-sub-juan" style="display: none;">
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝单板</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">冷轧卷 </a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">8011</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3003</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1060</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3A21</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">5052</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">O</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H18</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H22</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H24</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝厂直达</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">精美铝业</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">浙江一龙</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">河南中孚</a></span>
+								</div>
+							</div>
+							<!-- 铝卷 -->
+						</li>
+						<li class="global-main">
+							<div class="bg"><a href="" target="_blank"></a></div>
+							<h3 class="tit yahei font-s-16 rel font-w-n"><a href="" target="_blank" class="hover-orange">铝板</a><i class="arrow"></i></h3>
+							<div class="pl15 yahei color-666">昨日成交 <font class="color-orange font-w-b">47972.946</font> 吨</div>
+							<!-- 铝板 -->
+							<div class="global-sub global-sub-ban" style="display: none;">
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝单板</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝合金压花板</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">箱式汽车外蒙铝板</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">8011</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3003</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1060</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3A21</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">5052</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">O</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H18</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H22</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H24</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝厂直达</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">苏州华盛</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">吴江万航</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">山西伍甲</a></span>
+								</div>
+							</div>
+							<!-- 铝板 -->
+						</li>
+						<li class="global-main">
+							<div class="bg"><a href="" target="_blank"></a></div>
+							<h3 class="tit yahei font-s-16 rel font-w-n"><a href="" target="_blank" class="hover-orange">铝箔</a><i class="arrow"></i></h3>
+							<div class="pl15 yahei color-666">昨日成交 <font class="color-orange font-w-b">47972.946</font> 吨</div>
+							<!-- 铝箔 -->
+							<div class="global-sub global-sub-bo" style="display: none;">
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">亲水铝箔</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">空调铝箔 </a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">汽车铝箔</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">干式变压器铝箔</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">防腐保温铝箔</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">8011</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3003</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1060</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3A21</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">5052</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">O</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H18</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H22</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H24</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝厂直达</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">新疆众和</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">华北铝业</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">河南明泰</a></span>
+								</div>
+							</div>
+							<!-- 铝箔 -->
+						</li>
+						<li class="global-main">
+							<div class="bg"><a href="" target="_blank"></a></div>
+							<h3 class="tit yahei font-s-16 rel font-w-n"><a href="" target="_blank" class="hover-orange">型材</a><i class="arrow"></i></h3>
+							<div class="pl15 yahei color-666">昨日成交 <font class="color-orange font-w-b">47972.946</font> 吨</div>
+							<!-- 型材 -->
+							<div class="global-sub global-sub-cai" style="display: none;">
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝管</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝排</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝棒</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝圆片</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝锻件</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝铸件</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝压铸件</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝杆</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">铝线</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">8011</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3003</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1060</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">3A21</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">5052</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">1100</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<span><a href="" target="_blank" class="color-999 hover-orange">O</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">X</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H18</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H22</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">H24</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">焊料</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝厂直达</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">广铝铝材</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">湖北吕林特</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">荣阳铝业</a></span>
+								</div>
+							</div>
+							<!-- 型材 -->
+						</li>
+						<li class="global-main">
+							<div class="bg"></div>
+							<h3 class="tit yahei font-s-16 rel font-w-n"><a href="" target="_blank" class="hover-orange">铝厂专区</a><i class="arrow"></i></h3>
+							<div class="links pl15 pr15">
+								<a href="" target="_blank" class="color-999 hover-orange">苏州华盛</a><span class="color-999">&nbsp;|&nbsp;</span>
+								<a href="" target="_blank" class="color-999 hover-orange">吴江万航</a>
+							</div>
+							<!-- 铝厂专区 -->
+							<div class="global-sub global-sub-cang" style="display: none;">
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝卷</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">精美铝业</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">浙江一龙</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">河南中孚</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝带</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">苏州首铝</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">苏州东南</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">吉林麦达斯</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝板</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">苏州华盛</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">吴江万航</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">山西伍甲</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">铝箔</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">新疆众和</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">华北铝业</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">河南明泰</a></span>
+								</div>
+								<div class="global-sub-links clearfix">
+									<h3 class="yahei font-s-16 rel font-w-n line-solid-bottom pb10">型材</h3>
+									<span><a href="" target="_blank" class="color-999 hover-orange">广铝铝材</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">湖北吕林特</a></span>
+									<span><a href="" target="_blank" class="color-999 hover-orange">荣阳铝业</a></span>
+								</div>
+							</div>
+							<!-- 铝厂专区 -->
+						</li>
+					</ul>
+					<script type="text/javascript">
+						$("#global_nav").slide({  type:"menu", titCell:".global-main", targetCell:".global-sub", delayTime:0, triggerTime:0, defaultPlay:false, returnDefault:true });
+					</script>
+				</div>
+				<div class="yeehim-banner zz"><img src="images/banner_01.jpg" alt="" /></div>
+				<div class="zz" style="width: 280px;"><img src="images/hangqing.jpg" alt="" /></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-grid clearfix">
+		<div class="grid-12">
+			<div class="search_area mt20 clearfix">
+				<div class="dv-txt zz">
+					<input type="text" class="in-txt" placeholder="写下您的真实需求，包括规格、材质等，收到后我们会立即给您回电确认，剩下的就交给我们吧。">
+				</div>
+				<div class="dv-btn zz">
+					<input type="submit" class="btn-search" value="免费找货">
+				</div>
+				<div class="zz"><img src="images/telephone.gif" alt="" /></div>
+			</div>
+		</div>
+	</div>
+	<!-- 铝卷 -->
+	<div class="container-grid">
+		<div class="yeehim-common-layer layer-juan clearfix mt20">
+			<div class="top grid-12 rel">
+				<h3 class="zz font-s-24 font-s-n txt-center pb05 yahei">铝卷</h3>
+			</div>
+			<div class="grid-3 common-layer-left mt10">
+				<div class="tt font-s-16 txt-center color-FFF">最新求购信息</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-left">
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>热轧卷 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-left tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-6 common-layer-center mt10">
+				<div class="tt clearfix">
+					<div class="zz font-s-16">最新现货资源</div>
+					<div class="yy"><a href="" target="_blank" class="color-999 hover-orange">查看更多货源 ></a></div>
+				</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-center">
+						<tr>
+							<td valign="middle" align="center" width="10%">品名</td>
+							<td valign="middle" align="center" width="15%">铝厂</td>
+							<td valign="middle" align="center" width="10%">合金牌号</td>
+							<td valign="middle" align="center" width="15%">加工状态</td>
+							<td valign="middle" align="center" width="10%">单价</td>
+							<td valign="middle" align="center" width="10%">数量（吨）</td>
+							<td valign="middle" align="center" width="10%">时间</td>
+							<td valign="middle" align="center" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">热轧卷</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-center tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-3 common-layer-right mt10">
+				<div class="tt font-s-16 txt-center" style="background-color: #F5F5F5;">交易记录</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-right">
+						<tr>
+							<td valign="middle" align="center" width="25%">采购内容</td>
+							<td valign="middle" align="center" width="35%">价格（元/吨）</td>
+							<td valign="middle" align="center" width="25%">交易状态</td>
+							<td valign="middle" align="center" width="15%">时间</td>
+						</tr>
+					</table>
+					<ul class="record-data">
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">热轧卷 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-12">
+				<div class="company-list clearfix">
+					<div class="tit zz txt-center font-s-18 yahei">推荐铝厂</div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_01.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_02.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_03.gif" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 铝卷 -->
+	<!-- 铝板 -->
+	<div class="container-grid">
+		<div class="yeehim-common-layer layer-ban clearfix mt20">
+			<div class="top grid-12 rel">
+				<h3 class="zz font-s-24 font-s-n txt-center pb05 yahei">铝板</h3>
+			</div>
+			<div class="grid-3 common-layer-left mt10">
+				<div class="tt font-s-16 txt-center color-FFF">最新求购信息</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-left">
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝单板 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-left tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-6 common-layer-center mt10">
+				<div class="tt clearfix">
+					<div class="zz font-s-16">最新现货资源</div>
+					<div class="yy"><a href="" target="_blank" class="color-999 hover-orange">查看更多货源 ></a></div>
+				</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-center">
+						<tr>
+							<td valign="middle" align="center" width="10%">品名</td>
+							<td valign="middle" align="center" width="15%">铝厂</td>
+							<td valign="middle" align="center" width="10%">合金牌号</td>
+							<td valign="middle" align="center" width="15%">加工状态</td>
+							<td valign="middle" align="center" width="10%">单价</td>
+							<td valign="middle" align="center" width="10%">数量（吨）</td>
+							<td valign="middle" align="center" width="10%">时间</td>
+							<td valign="middle" align="center" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝单板</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-center tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-3 common-layer-right mt10">
+				<div class="tt font-s-16 txt-center" style="background-color: #F5F5F5;">交易记录</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-right">
+						<tr>
+							<td valign="middle" align="center" width="25%">采购内容</td>
+							<td valign="middle" align="center" width="35%">价格（元/吨）</td>
+							<td valign="middle" align="center" width="25%">交易状态</td>
+							<td valign="middle" align="center" width="15%">时间</td>
+						</tr>
+					</table>
+					<ul class="record-data">
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝单板 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-12">
+				<div class="company-list clearfix">
+					<div class="tit zz txt-center font-s-18 yahei">推荐铝厂</div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_04.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_05.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_06.gif" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 铝板 -->
+	<!-- 铝带 -->
+	<div class="container-grid">
+		<div class="yeehim-common-layer layer-dai clearfix mt20">
+			<div class="top grid-12 rel">
+				<h3 class="zz font-s-24 font-s-n txt-center pb05 yahei">铝带</h3>
+			</div>
+			<div class="grid-3 common-layer-left mt10">
+				<div class="tt font-s-16 txt-center color-FFF">最新求购信息</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-left">
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>空调铝带 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-left tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-6 common-layer-center mt10">
+				<div class="tt clearfix">
+					<div class="zz font-s-16">最新现货资源</div>
+					<div class="yy"><a href="" target="_blank" class="color-999 hover-orange">查看更多货源 ></a></div>
+				</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-center">
+						<tr>
+							<td valign="middle" align="center" width="10%">品名</td>
+							<td valign="middle" align="center" width="15%">铝厂</td>
+							<td valign="middle" align="center" width="10%">合金牌号</td>
+							<td valign="middle" align="center" width="15%">加工状态</td>
+							<td valign="middle" align="center" width="10%">单价</td>
+							<td valign="middle" align="center" width="10%">数量（吨）</td>
+							<td valign="middle" align="center" width="10%">时间</td>
+							<td valign="middle" align="center" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">空调铝带</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-center tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-3 common-layer-right mt10">
+				<div class="tt font-s-16 txt-center" style="background-color: #F5F5F5;">交易记录</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-right">
+						<tr>
+							<td valign="middle" align="center" width="25%">采购内容</td>
+							<td valign="middle" align="center" width="35%">价格（元/吨）</td>
+							<td valign="middle" align="center" width="25%">交易状态</td>
+							<td valign="middle" align="center" width="15%">时间</td>
+						</tr>
+					</table>
+					<ul class="record-data">
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">空调铝带 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-12">
+				<div class="company-list clearfix">
+					<div class="tit zz txt-center font-s-18 yahei">推荐铝厂</div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_07.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_08.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_09.gif" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 铝带 -->
+	<!-- 铝箔 -->
+	<div class="container-grid">
+		<div class="yeehim-common-layer layer-bo clearfix mt20">
+			<div class="top grid-12 rel">
+				<h3 class="zz font-s-24 font-s-n txt-center pb05 yahei">铝箔</h3>
+			</div>
+			<div class="grid-3 common-layer-left mt10">
+				<div class="tt font-s-16 txt-center color-FFF">最新求购信息</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-left">
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>亲水铝箔 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-left tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-6 common-layer-center mt10">
+				<div class="tt clearfix">
+					<div class="zz font-s-16">最新现货资源</div>
+					<div class="yy"><a href="" target="_blank" class="color-999 hover-orange">查看更多货源 ></a></div>
+				</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-center">
+						<tr>
+							<td valign="middle" align="center" width="10%">品名</td>
+							<td valign="middle" align="center" width="15%">铝厂</td>
+							<td valign="middle" align="center" width="10%">合金牌号</td>
+							<td valign="middle" align="center" width="15%">加工状态</td>
+							<td valign="middle" align="center" width="10%">单价</td>
+							<td valign="middle" align="center" width="10%">数量（吨）</td>
+							<td valign="middle" align="center" width="10%">时间</td>
+							<td valign="middle" align="center" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">亲水铝箔</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-center tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-3 common-layer-right mt10">
+				<div class="tt font-s-16 txt-center" style="background-color: #F5F5F5;">交易记录</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-right">
+						<tr>
+							<td valign="middle" align="center" width="25%">采购内容</td>
+							<td valign="middle" align="center" width="35%">价格（元/吨）</td>
+							<td valign="middle" align="center" width="25%">交易状态</td>
+							<td valign="middle" align="center" width="15%">时间</td>
+						</tr>
+					</table>
+					<ul class="record-data">
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">亲水铝箔 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-12">
+				<div class="company-list clearfix">
+					<div class="tit zz txt-center font-s-18 yahei">推荐铝厂</div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_10.gif" alt="" /></a></div>	
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_11.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_12.gif" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 铝箔 -->
+	<!-- 型材 -->
+	<div class="container-grid">
+		<div class="yeehim-common-layer layer-cai clearfix mt20">
+			<div class="top grid-12 rel">
+				<h3 class="zz font-s-24 font-s-n txt-center pb05 yahei">型材</h3>
+			</div>
+			<div class="grid-3 common-layer-left mt10">
+				<div class="tt font-s-16 txt-center color-FFF">最新求购信息</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-left">
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="33.33%">
+								<p>铝圆片 50吨</p>
+								<p class="color-999">4A13 H22</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="33.33%">
+								<a href="" target="_blank" class="send-price hover-light">我要报价</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-left tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-6 common-layer-center mt10">
+				<div class="tt clearfix">
+					<div class="zz font-s-16">最新现货资源</div>
+					<div class="yy"><a href="" target="_blank" class="color-999 hover-orange">查看更多货源 ></a></div>
+				</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-center">
+						<tr>
+							<td valign="middle" align="center" width="10%">品名</td>
+							<td valign="middle" align="center" width="15%">铝厂</td>
+							<td valign="middle" align="center" width="10%">合金牌号</td>
+							<td valign="middle" align="center" width="15%">加工状态</td>
+							<td valign="middle" align="center" width="10%">单价</td>
+							<td valign="middle" align="center" width="10%">数量（吨）</td>
+							<td valign="middle" align="center" width="10%">时间</td>
+							<td valign="middle" align="center" width="10%">操作</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+						<tr>
+							<td valign="middle" align="center" width="10%">铝圆片</td>
+							<td valign="middle" align="center" width="15%">苏州华盛</td>
+							<td valign="middle" align="center" width="10%">8011</td>
+							<td valign="middle" align="center" width="15%">H22</td>
+							<td valign="middle" align="center" width="10%">
+								<p class="yahei font-s-16 color-orange">￥9700</p>
+							</td>
+							<td valign="middle" align="center" width="10%">20</td>
+							<td valign="middle" align="center" width="10%">08-10</td>
+							<td valign="middle" align="center" width="10%">
+								<a href="" target="_blank" class="color-blue hover-line">查看</a>
+							</td>
+						</tr>
+					</table>
+					<script type="text/javascript">
+						$(".table-center tr:even").addClass("even");
+					</script>
+				</div>
+			</div>
+			<div class="grid-3 common-layer-right mt10">
+				<div class="tt font-s-16 txt-center" style="background-color: #F5F5F5;">交易记录</div>
+				<div class="main">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table-right">
+						<tr>
+							<td valign="middle" align="center" width="25%">采购内容</td>
+							<td valign="middle" align="center" width="35%">价格（元/吨）</td>
+							<td valign="middle" align="center" width="25%">交易状态</td>
+							<td valign="middle" align="center" width="15%">时间</td>
+						</tr>
+					</table>
+					<ul class="record-data">
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">待付款</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>待付款</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">已审核</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p>已审核</p>
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+						<li class="tip-trigger">
+							<div class="tip">
+								<div class="clearfix">
+									<div class="zz">采购内容</div><div class="yy">交易成功</div>
+								</div>
+								<p class="color-666">铝圆片 8011 H22 ￥9830.0  7.474吨  原料库 16:40:08</p>
+							</div>
+							<span class="buy-tit">5010</span>
+							<span class="buy-price">
+								<p class="yahei font-s-14 color-orange">￥9700</p>
+							</span>
+							<span class="buy-status">
+								<p class="color-orange">交易成功</p><!-- 交易成功时添加类名 color-orange -->
+							</span>
+							<span class="buy-time">
+								<p class="color-999">15:13</p>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-12">
+				<div class="company-list clearfix">
+					<div class="tit zz txt-center font-s-18 yahei">推荐铝厂</div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_13.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_14.gif" alt="" /></a></div>
+					<div class="img zz"><a href="" target="_blank"><img src="images/company_15.gif" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 型材 -->
+	<div class="container-grid mt20">
+		<div class="container-floor clearfix">
+			<div class="floor-top grid-12"></div>
+			<div class="grid-5 floor-service pl15 pt15 pr15">
+				<h3 class="font-s-16 font-w-n yahei line-solid-bottom pb10">客户经理免费找货</h3>
+				<div class="service-list clearfix mt15 line-solid-bottom pb15 rel">
+					<div class="img zz"><img src="images/index_01.gif" alt="" width="80" height="80" /></div>
+					<div class="name zz ml15">
+						<p class="font-s-14">可可</p>
+						<p class="font-s-14">18158173930</p>
+					</div>
+					<div class="info zz ml15">
+						<p class="color-666">主要服务：铝板 铝带</p>
+						<p class="color-666 line-h-24">年限：HDPE和PVC领域有多年的实战经验</p>
+					</div>
+					<div class="qq"><a href=""></a></div>
+				</div>
+				<div class="service-list clearfix mt15 line-solid-bottom pb15 rel">
+					<div class="img zz"><img src="images/index_02.gif" alt="" width="80" height="80" /></div>
+					<div class="name zz ml15">
+						<p class="font-s-14">伟伟</p>
+						<p class="font-s-14">18158173930</p>
+					</div>
+					<div class="info zz ml15">
+						<p class="color-666">主要服务：铝板 型材 铝卷</p>
+						<p class="color-666 line-h-24">年限：在业内广泛受到采购和供应商的好评</p>
+					</div>
+					<div class="qq"><a href=""></a></div>
+				</div>
+				<div class="service-list clearfix mt15 pb15 rel">
+					<div class="img zz"><img src="images/index_03.gif" alt="" width="80" height="80" /></div>
+					<div class="name zz ml15">
+						<p class="font-s-14">小一</p>
+						<p class="font-s-14">18158173930</p>
+					</div>
+					<div class="info zz ml15">
+						<p class="color-666">主要服务：铝卷 铝箔</p>
+						<p class="color-666 line-h-24">年限：在业内广泛受到采购和供应商的好评</p>
+					</div>
+					<div class="qq"><a href=""></a></div>
+				</div>
+			</div>
+			<div class="grid-7 floor-news pt15">
+				<div class="clearfix line-solid-bottom pb10 ml15 mr15">
+					<h3 class="font-s-16 font-w-n yahei zz">客户经理免费找货</h3>
+					<div class="yy"><a href="" target="_blank" class="hover-orange color-999">更多 ></a></div>
+				</div>
+				<ul class="clearfix ul-txt-over">
+					<li><i class="icon"></i><a href="" class="hover-orange">国信期货早评：有色外弱内强</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">英大期货早评：沪铝空单获利减持 继续反弹</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">弘业期货早评：沪铝反弹不追，短时震荡为主</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">瑞达期货：8月25日铜、铝交易提示</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">弘业期货早评：沪铝短时超跌，空单止盈观望</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">国信期货日评：有色涨跌不一，铜铝有望企稳</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">国信期货日评：恐慌情绪发酵，有色跳水期</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">中原期货：美元指数大幅回落 金属低位获支撑</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">国泰君安期货：外盘创新低，沪铝考验前期低点</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">国泰君安期货：弱势震荡，建议观望</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">首创期货：股市抛售蔓延，铜价5000点压力大</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">五矿经易期货：沪铝国内库存下降速度减缓</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">中国制造业PMI表现糟糕，有色集体走跌</a></li>
+					<li><i class="icon"></i><a href="" class="hover-orange">FOMC会议纪要显鸽派 基本金属获支撑</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

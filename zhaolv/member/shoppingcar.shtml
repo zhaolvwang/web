@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+<link rel="stylesheet" href="images/theme.css">
+<script type="text/javascript" src="images/theme.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.theme-clean-all').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-popover').slideDown(200);
+	});
+	$('.layer-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-popover').slideUp(200);
+	});
+})
+</script>
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="###">我的购物车</a><i></i></span>
+					</div>
+					<div class="member-search mt20 mb20 clearfix">
+						<div class="dv-tit zz">采购单编号：</div>
+						<div class="dv-txt zz ml05">
+							<input type="text" class="in-txt" placeholder="请输入采购单编号">
+						</div>
+						<div class="dv-btn zz ml10">
+							<input type="submit" class="btn-search" value="查询">
+						</div>
+					</div>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table-head">
+						<tr class="bg">
+							<td align="left" valign="middle" width="20%">货物信息</td>
+							<td align="center" valign="middle" width="8%">件重/吨</td>
+							<td align="center" valign="middle" width="12%">单价</td>
+							<td align="center" valign="middle" width="10%">可供量</td>
+							<td align="center" valign="middle" width="10%">数量</td>
+							<td align="center" valign="middle" width="10%">重量</td>
+							<td align="center" valign="middle" width="12%">金额合计</td>
+							<td align="center" valign="middle" width="8%">是否有货</td>
+							<td align="center" valign="middle" width="10%">操作</td>
+						</tr>
+					</table>
+					<!-- 没有数据时显示
+						<div class="member-data-none">
+							购物车内没有商品。<a href="" class="color-blue hover-line">去商城选购</a>
+						</div> -->
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table">
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="8%">7.25吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10吨</td>
+							<td align="center" valign="middle" width="10%">1</td>
+							<td align="center" valign="middle" width="10%">7.125吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">是</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="" class="color-blue hover-line">删除</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="8%">7.25吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10吨</td>
+							<td align="center" valign="middle" width="10%">1</td>
+							<td align="center" valign="middle" width="10%">7.125吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">是</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="" class="color-blue hover-line">删除</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="8%">7.25吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10吨</td>
+							<td align="center" valign="middle" width="10%">1</td>
+							<td align="center" valign="middle" width="10%">7.125吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">是</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="" class="color-blue hover-line">删除</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="8%">7.25吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10吨</td>
+							<td align="center" valign="middle" width="10%">1</td>
+							<td align="center" valign="middle" width="10%">7.125吨</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">是</td>
+							<td align="center" valign="middle" width="10%">
+								<a href="" class="color-blue hover-line">删除</a>
+							</td>
+						</tr>
+					</table>
+					<div class="shopping-count clearfix pt20 pb20">
+						<div class="total zz">
+							<dl class="zz">
+								<dt class="zz">件数小计：</dt>
+								<dd class="zz">1 件</dd>
+							</dl>
+							<dl class="zz">
+								<dt class="zz">重量小计：</dt>
+								<dd class="zz">7.125吨</dd>
+							</dl>
+							<dl class="zz">
+								<dt class="zz">商品总价：</dt>
+								<dd class="zz">¥ 9850.0</dd>
+							</dl>
+						</div>
+						<div class="operation yy mt20 mr40">
+							<form action="">
+								<span class="zz ml15"><input type="submit" class="btn-order hover-light" value="去下单" /></span>
+								<span class="zz ml15"><a href="" class="btn-buy hover-light">返回继续买货</a></span>
+								<span class="zz ml15"><a href="javascript:;" class="btn-clean hover-light theme-clean-all"></a></span>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+	<div class="theme-popover">
+	     <div class="theme-poptit">
+	          <a href="javascript:;" title="关闭" class="close layer-close">×</a>
+	          <h3 class="font-s-14 font-w-n color-666">清空购物车</h3>
+	     </div>
+	     <div class="theme-popbod dform">
+			<form action="">
+				<div class="tips margin-auto" style="width: 300px;">
+					<i class="tp-icon"></i>
+					<p class="font-s-16 yahei" style=" padding-left: 50px;">清空购物车？</p>
+					<p class="font-s-14 color-999 yahei" style=" padding-left: 50px;">购物车中的商品会全部消失</p>
+					<input type="button" class="button-orange mt30" value="清空">
+					<input type="button" class="button-gry mt30 layer-close" value="不清空">
+				</div>
+			</form>
+	     </div>
+	</div>
+	<div class="theme-popover-mask"></div>
+</body>
+</html>

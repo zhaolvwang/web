@@ -1,0 +1,57 @@
+<div class="yeehim-foot pt40 pb40">
+		<div class="container-grid clearfix">
+			<div class="grid-2 foot-link">
+				<dl>
+					<dt class="font-w-b font-s-14 mb10">我要买铝材</dt>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">我是买家，如何找货？</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">商城采购流程</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">资源单下载</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">现货搜索</a></dd>
+				</dl>
+			</div>
+			<div class="grid-2 foot-link">
+				<dl>
+					<dt class="font-w-b font-s-14 mb10">我要卖铝材</dt>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">资源单上传</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">如何吸引更多买家</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">卖家如何直接报价</a></dd>
+				</dl>
+			</div>
+			<div class="grid-2 foot-link">
+				<dl>
+					<dt class="font-w-b font-s-14 mb10">交易指南</dt>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">交易规则</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">怎样保证交易安全</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">报价来源及收费标准</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">收款账号</a></dd>
+				</dl>
+			</div>
+			<div class="grid-2 foot-link">
+				<dl>
+					<dt class="font-w-b font-s-14 mb10">常见问题</dt>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">注册/登录流程</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">无法登录/忘记密码</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">会员中心</a></dd>
+					<dd class="mt05"><a href="" target="_blank" class="color-666 hover-line">修改账户信息</a></dd>
+				</dl>
+			</div>
+			<div class="yy">
+				<div class="zz foot-contact">
+					<div class="font-w-b font-s-14">联系我们</div>
+					<p class="color-666"><i class="tel"></i>010-8888-8888</p>
+					<p class="color-666"><i class="loc"></i>江苏镇江丹徒区谷阳大道18号</p>
+				</div>
+				<div class="code zz ml20"><img src="{{asset('packages/member/images/code.gif')}}" alt="" /></div>
+			</div>
+			<div class="grid-12 mt40 pt40 line-solid-top">
+				<p class="txt-center">
+					<a href="" target="_blank" class="color-666 hover-orange hover-line">关于我们</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+					<a href="" target="_blank" class="color-666 hover-orange hover-line">法律声明</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+					<a href="" target="_blank" class="color-666 hover-orange hover-line">诚聘英才</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+					<a href="" target="_blank" class="color-666 hover-orange hover-line">投资洽谈</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+					<a href="" target="_blank" class="color-666 hover-orange hover-line">友情链接</a>
+				</p>
+				<p class="color-666 txt-center mt10">COPYRIGHT 铝材超市 版权所有 www.zhaolv.com 苏ICP备 24501342213915号</p>
+				<p class="txt-center mt15"><img src="{{asset('packages/member/images/index_04.gif')}}" alt="" class="margin-auto" /></p>
+			</div>
+		</div>

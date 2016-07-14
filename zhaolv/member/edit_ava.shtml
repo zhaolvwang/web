@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="edit_ava.shtml">编辑头像<i></i></a></span>
+					</div>
+					<div class="account-main pt40 pb40 pl40 pr40">
+						<div class="img txt-center"><img src="images/ava_large.gif" alt="" width="150" height="150" class="margin-auto" /></div>
+						<div class="clearfix margin-auto mt40" style="width: 530px;">
+							<div class="zz up-load-layer rel">
+								<input type="file" class="in-file" onchange="document.getElementById('upfileResult').innerHTML=this.value" name="image">
+								<div class="tip yahei font-s-14 txt-over" id="upfileResult">文件名</div>
+							</div>
+							<div class="zz ml10"><input type="submit" class="btn-file hover-light font-s-16" value="上  传"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+<link rel="stylesheet" href="images/theme.css">
+<script type="text/javascript" src="images/theme.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.theme-mail-click').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-mail').slideDown(200);
+	});
+	$('.mail-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-mail').slideUp(200);
+	});
+
+});
+</script>
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="order_detail.shtml">订单详情<i></i></a></span>
+						<a href="view_invoice.shtml" target="_blank" class="btn-orange hover-light">查看发货单</a>
+					</div>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-order-table mt10">
+						<tr class="bg">
+							<td colspan="2">订单概况</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">订单编号：</td>
+							<td align="left" valign="middle" width="778">
+								<p class="color-blue">XS15091410340542</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">订单状态：</td>
+							<td align="left" valign="middle" width="778">
+								<p class="color-light-red">交易成功</p>
+								<div class="piao">
+									<!-- <i class="ok"></i>已开票 -->
+									<i class="no"></i>未开票
+								</div>
+								<a href="javascript:;" class="btn-piao hover-light theme-mail-click">申请开票</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">订单总计：</td>
+							<td align="left" valign="middle" width="778">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">开票抬头：</td>
+							<td align="left" valign="middle" width="778">
+								重庆易轩科技有限公司&nbsp;&nbsp;支付方式：线下网银转账
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">提货方式：</td>
+							<td align="left" valign="middle" width="778">整单提货</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">提货证明：</td>
+							<td align="left" valign="middle" width="778">车牌号：苏LF9858 皖KF0217 沪B55753</td>
+						</tr>
+						<tr>
+							<td align="right" valign="middle" width="100">备注信息：</td>
+							<td align="left" valign="middle" width="778">车牌号：苏LF9858 皖KF0217 沪B55753</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-order-table last-line mt10">
+						<tr class="bg">
+							<td width="100%">订单明细</td>
+						</tr>
+						<tr>
+							<td>
+								<ul class="detail-info">
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您提交了订单，等待付款</span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您的订单已经付款完成，订单不能修改</span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您的提货函，交易员<font class="color-blue">【林观海（021-60100264）】</font>已传真至<font class="color-blue">【聚方库】</font>您可随时提货<font class="color-light-red">（凭车牌号）</font></span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt"><font class="color-blue">苏LF9858 皖KF0217 沪B55753</font>已全部提完货物，<font class="color-light-red">规格：2.0*1260*2500 实提吨数：6.375，规格：2.75*1500*6000 实提吨数：7.94，规格：1.5*1260*2500 实提吨数：3.30，规格：5.75*1500*6000 实提吨数：0.41，规格：7.75*1500*6000，实提吨数：0.5450</font></span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您的订单结算中</span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您的订单已经结算完成</span></li>
+									<li><span class="time">2015-09-24 10:41:24</span><span class="txt">您的订单已开票</span></li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-order-table">
+						<tr class="bg">
+							<td colspan="9">
+								<font class="color-blue">源龙库</font> 仓库地址：XXXXXXXXXXXXXX 联系电话：XXXXXXXXXXXXXXXX
+							</td>
+						</tr>
+						<tr class="bg">
+							<td align="left" valign="middle" width="20%">产品信息</td>
+							<td align="center" valign="middle" width="10%">单价/吨</td>
+							<td align="center" valign="middle" width="8%">数量</td>
+							<td align="center" valign="middle" width="8%">件重</td>
+							<td align="center" valign="middle" width="8%">重量</td>
+							<td align="center" valign="middle" width="8%">实提数量</td>
+							<td align="center" valign="middle" width="8%">实提重量</td>
+							<td align="center" valign="middle" width="10%">订单金额</td>
+							<td align="center" valign="middle" width="10%">实提应收</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">铝卷  8011  H22  4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 183000.0</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">铝卷  8011  H22  4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 183000.0</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">铝卷  8011  H22  4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 183000.0</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">铝卷  8011  H22  4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">
+								<p class="color-orange font-s-16 yahei">¥ 183000.0</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-order-table mt10">
+						<tr class="bg">
+							<td colspan="2">提货函数</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="detail-info clearfix">
+									<span class="zz"><font class="font-w-b">货权转至</font> 苏LF9858 皖KF0217 沪B55753</span>
+									<span class="yy color-light-red">已提货</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+	<div class="theme-popover theme-mail">
+	     <div class="theme-poptit">
+	          <a href="javascript:;" title="关闭" class="close mail-close">×</a>
+	          <h3 class="font-s-14 font-w-n color-666">申请开票</h3>
+	     </div>
+	     <div class="theme-popbod dform pt40">
+			<form action="">
+				<div class="member-common-form">
+					<dl class="clearfix">
+						<dt class="zz color-666">
+							<font class="color-orange">*</font>开票抬头：
+						</dt>
+						<dd class="zz dd-txt">
+							<input type="text" class="in-txt" value="250122090@qq.com">
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt class="zz color-666">
+							&nbsp;
+						</dt>
+						<dd class="zz dd-txt">
+							<span class="color-light-red">请填写开票抬头</span>
+						</dd>
+					</dl>
+					<dl class="mt30 clearfix">
+						<dt class="zz color-666">
+							&nbsp;
+						</dt>
+						<dd class="zz dd-txt">
+							<input type="submit" class="btn-submit hover-light" value="提交申请">
+						</dd>
+					</dl>
+				</div>
+			</form>
+	     </div>
+	</div>
+	<div class="theme-popover-mask"></div>
+</body>
+</html>

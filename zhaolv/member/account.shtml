@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+<link rel="stylesheet" href="images/theme.css">
+<script type="text/javascript" src="images/theme.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.theme-mail-click').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-mail').slideDown(200);
+	});
+	$('.mail-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-mail').slideUp(200);
+	});
+
+	$('.theme-phone-click').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-phone').slideDown(200);
+	});
+	$('.phone-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-phone').slideUp(200);
+	});
+})
+</script>
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="account.shtml">帐户信息<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="integration.shtml">我的积分<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="security.shtml">帐户安全<i></i></a></span>
+					</div>
+					<div class="account-main pt40 pb40 pl40 pr40 clearfix">
+						<div class="account-left zz">
+							<div class="img"><img src="images/ava_large.gif" alt="" width="150" height="150" /></div>
+							<div class="tit"><a href="edit_ava.shtml" target="_blank" class="color-FFF hover-line">编辑头像</a></div>
+							<div class="cover"></div>
+						</div>
+						<div class="account-right zz">
+							<form action="">
+								<div class="member-common-form clearfix">
+									<dl class="zz mb15">
+										<dt class="zz">
+											帐号：
+										</dt>
+										<dd class="zz dd-txt">
+											<p class="pl10">13356564606</p>
+										</dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											公司：
+										</dt>
+										<dd class="zz dd-txt">
+											<p class="pl10">易轩科技有限公司</p>
+										</dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											姓名：
+										</dt>
+										<dd class="zz dd-txt">
+											<input type="text" class="in-txt" value="陈先生">
+										</dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											邮箱：
+										</dt>
+										<dd class="zz dd-txt">
+											<p class="pl10">250122090@qq.com</p>
+										</dd>
+										<dd class="zz"><a href="javascript:;" class="color-blue hover-line theme-mail-click">修改邮箱</a></dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											手机：
+										</dt>
+										<dd class="zz dd-txt">
+											<p class="pl10">13356564606</p>
+										</dd>
+										<dd class="zz"><a href="javascript:;" class="color-blue hover-line theme-phone-click">修改手机号</a></dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											固话：
+										</dt>
+										<dd class="zz dd-txt">
+											<input type="text" class="in-txt">
+										</dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											地址：
+										</dt>
+										<dd class="zz dd-txt">
+											<input type="text" class="in-txt">
+										</dd>
+									</dl>
+									<dl class="zz mb15">
+										<dt class="zz">
+											QQ：
+										</dt>
+										<dd class="zz dd-txt">
+											<input type="text" class="in-txt">
+										</dd>
+									</dl>
+									<dl class="zz mt25">
+										<dt class="zz">
+											&nbsp;
+										</dt>
+										<dd class="zz">
+											<input type="text" class="btn-submit hover-light" value="保  存">
+										</dd>
+									</dl>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+<div class="theme-popover theme-mail">
+     <div class="theme-poptit">
+          <a href="javascript:;" title="关闭" class="close mail-close">×</a>
+          <h3 class="font-s-14 font-w-n color-666">修改邮箱</h3>
+     </div>
+     <div class="theme-popbod dform pt40">
+		<form action="">
+			<div class="member-common-form">
+				<dl class="clearfix">
+					<dt class="zz color-666">
+						邮箱地址：
+					</dt>
+					<dd class="zz dd-txt">
+						<input type="text" class="in-txt">
+					</dd>
+				</dl>
+				<dl class="mt40 clearfix">
+					<dt class="zz color-666">
+						&nbsp;
+					</dt>
+					<dd class="zz dd-txt">
+						<input type="submit" class="btn-submit hover-light" value="修改">
+					</dd>
+				</dl>
+			</div>
+		</form>
+     </div>
+</div>
+<div class="theme-popover theme-phone">
+     <div class="theme-poptit">
+          <a href="javascript:;" title="关闭" class="close phone-close">×</a>
+          <h3 class="font-s-14 font-w-n color-666">修改手机号</h3>
+     </div>
+     <div class="theme-popbod dform pt20 pb30">
+		<form action="">
+			<div class="member-common-form">
+				<dl class="clearfix">
+					<dt class="zz color-666">
+						手机号：
+					</dt>
+					<dd class="zz dd-txt">
+						13356564606
+					</dd>
+				</dl>
+				<dl class="clearfix">
+					<dt class="zz color-666">
+						&nbsp;
+					</dt>
+					<dd class="zz dd-txt">
+						<a href="javascript:;" class="btn-bg-blue hover-light font-s-12">获取短信验证码</a>
+					</dd>
+				</dl>
+				<dl class="clearfix mt10">
+					<dt class="zz color-666">
+						验证码：
+					</dt>
+					<dd class="zz dd-txt">
+						<input type="text" class="in-txt">
+					</dd>
+				</dl>
+				<dl class="mt20 clearfix">
+					<dt class="zz color-666">
+						&nbsp;
+					</dt>
+					<dd class="zz dd-txt">
+						<input type="submit" class="btn-submit hover-light" value="修改">
+					</dd>
+				</dl>
+			</div>
+		</form>
+     </div>
+</div>
+<div class="theme-popover-mask"></div>
+</body>
+</html>

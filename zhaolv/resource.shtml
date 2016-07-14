@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>找铝网 - 铝材网上交易平台</title>
+<meta content="找铝网,中国找铝网,铝材,铝材价格,铝型材,铝板,铝带,铝箔,铝卷" name="keywords"> 
+<meta name="description" content="找铝网，国内首家专业铝材电子交易平台。为铝行业提供铝材,铝型材,铝板,铝带,铝箔,铝卷现货买卖，及在线订单采购服务。"> 
+<!--#include file="head.htm" -->
+
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="container-grid clearfix">
+		<div class="grid-12">
+			<dl class="change-ing clearfix pt15 pb15">
+				<dt class="zz color-666" style="margin-top: 3px;">资源单搜索 > </dt>
+				<dd class="zz ml15">
+					<a href="###" rel="nofollow" class="now-select" title="点击可删除">分类：铝板<i></i></a>
+					<a href="###" rel="nofollow" class="now-select" title="点击可删除">合金牌号：8011<i></i></a>
+					<a href="###" class="btn-anew hover-light">重新筛选</a>
+				</dd>
+			</dl>
+			<div class="change-box">
+				<dl class="clearfix line-solid-bottom pb05">
+					<dt class="zz color-666 mt05">地 区</dt>
+					<dd class="zz pl10 mt10">
+						<a href="###" class="on">全部</a>
+						<a href="###">上海</a>
+						<a href="###">无锡</a>
+						<a href="###">杭州</a>
+						<a href="###">南京</a>
+						<a href="###">宁波</a>
+						<a href="###">武汉</a>
+						<a href="###">乐从</a>
+						<a href="###">郑州</a>
+						<a href="###">天津</a>
+					</dd>
+				</dl>
+				<dl class="clearfix line-solid-bottom pb05">
+					<dt class="zz color-666 mt05">分 类</dt>
+					<dd class="zz pl10 mt10">
+						<a href="###" class="on">全部</a>
+						<a href="###">铝板</a>
+						<a href="###">铝带</a>
+						<a href="###">型材</a>
+						<a href="###">铝卷</a>
+						<a href="###">铝箔</a>
+					</dd>
+				</dl>
+				<form action="">
+					<div class="search-box line-solid-bottom">
+						<div class="zz ml80">
+							<div class="dv-tt color-666 zz">铝厂：</div>
+							<div class="dv-txt ml10 zz"><input type="text" class="in-txt" /></div>
+						</div>
+						<div class="zz ml20">
+							<div class="dv-tt color-666 zz">品种：</div>
+							<div class="dv-txt ml10 zz"><input type="text" class="in-txt" /></div>
+						</div>
+						<div class="zz ml20">
+							<div class="dv-tt color-666 zz">公司名称：</div>
+							<div class="dv-txt ml10 zz"><input type="text" class="in-txt" /></div>
+						</div>
+						<div class="zz ml20" style="margin-top: 13px;">
+							<input type="submit" class="btn-search hover-light" value="" />
+						</div>
+						<div class="zz ml20" style="margin-top: 13px;">
+							<a href="upload.shtml" target="_blank" class="hover-light btn-upload"></a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="resource-tab-tit mt20 clearfix">
+				<span class="current"><a href="">公司名称</a></span>
+				<span><a href="">下载数<i></i><!-- 升序时添加类名 up --><!-- 降序时添加类名 down --></a></span>
+				<span><a href="">我关注的（0）</a></span>
+			</div>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-head">
+				<tr>
+					<td align="center" width="15%">公司名称</td>
+					<td align="center" width="10%">联系人</td>
+					<td align="center" width="20%">主营品种</td>
+					<td align="center" width="15%">主营产商</td>
+					<td align="center" width="10%">公司所在地</td>
+					<td align="center" width="10%">上传时间</td>
+					<td align="center" width="10%">下载数</td>
+					<td align="center" width="10%">操作</td>
+				</tr>
+			</table>
+			<!-- 列表 -->
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellspadding="0" class="resource-tab-list mt10">
+				<tr>
+					<td align="center" valign="middle" width="15%">
+						<p>广东金鑫源实业有限公司</p>
+						<p class="guanzhu mt05"><a href="###" class="hover-line"><i></i>关注</a></p>
+					</td>
+					<td align="center" valign="middle" width="10%">金鑫源实业</td>
+					<td align="center" valign="middle" width="20%">空调铝带,变压器铝带</td>
+					<td align="center" valign="middle" width="15%">苏州华盛,吴江万航,山西伍甲</td>
+					<td align="center" valign="middle" width="10%">黄山</td>
+					<td align="center" valign="middle" width="10%">2015-01-01</td>
+					<td align="center" valign="middle" width="10%">
+						<p class="color-orange">154</p>
+					</td>
+					<td align="center" valign="middle" width="10%">
+						<div class="clearfix">
+							<a href="" target="_blank" class="color-666 down btn hover-line"><i></i>下载</a>
+							<span class="line zz">|</span>
+							<a href="" target="_blank" class="color-666 view btn hover-line"><i></i>预览</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<script type="text/javascript">
+				$(".resource-tab-list").hover(function(){
+					$(this).addClass("resource-tab-hover");
+				},function(){
+					$(this).removeClass("resource-tab-hover");
+				});
+			</script>
+			<!-- 列表 -->
+			<div class="yeehim-pager mt60 mb20 clearfix">
+				<ul>
+					<li class="prev"><span>上一页</span></li>
+					<li class="current"><span>1</span></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li class="next"><a href="">下一页</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

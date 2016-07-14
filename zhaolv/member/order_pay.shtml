@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+<link rel="stylesheet" href="images/theme.css">
+<script type="text/javascript" src="images/theme.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.theme-good-click').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-good').slideDown(200);
+	});
+	$('.layer-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-good').slideUp(200);
+	});
+
+	$('.theme-piao-click').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-piao').slideDown(200);
+	});
+	$('.layer-close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-piao').slideUp(200);
+	});
+})
+</script>
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span><a href="order.shtml">全部<i></i></a></span>
+						<span class="line-ver"></span>
+						<span class="current"><a href="order_pay.shtml">待付款<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="order_delivery.shtml">待提货<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="order_replenishment.shtml">待补款<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="order_invoice.shtml">待开票<i></i></a></span>
+					</div>
+					<div class="member-search mt20 mb20 clearfix">
+						<div class="dv-tit zz">订单号：</div>
+						<div class="dv-txt zz ml05">
+							<input type="text" class="in-txt" placeholder="请输入订单号">
+						</div>
+						<div class="dv-btn zz ml10">
+							<input type="submit" class="btn-search" value="查询">
+						</div>
+					</div>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table-head">
+						<tr class="bg">
+							<td align="center" valign="middle" width="10%">产品信息</td>
+							<td align="center" valign="middle" width="10%">铝厂</td>
+							<td align="center" valign="middle" width="8%">合金牌号</td>
+							<td align="center" valign="middle" width="8%">加工状态</td>
+							<td align="center" valign="middle" width="16%">规格</td>
+							<td align="center" valign="middle" width="10%">仓库</td>
+							<td align="center" valign="middle" width="14%">单价/吨</td>
+							<td align="center" valign="middle" width="8%">数量</td>
+							<td align="center" valign="middle" width="8%">件重</td>
+							<td align="center" valign="middle" width="8%">重量</td>
+						</tr>
+					</table>
+					<!-- 没有数据时显示
+						<div class="member-data-none">
+							暂无匹配数据
+						</div>
+					 -->
+					 <table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="10">
+								<div class="clearfix">
+									<span class="zz">订单编号：<a href="" target="_blank" class="color-blue hover-line">XS15091110338640</a></span>
+									<span class="zz ml05 mr05 color-999">|</span>
+									<span class="zz color-999">2015-01-01 09：20：45</span>
+									<span class="yy">
+										<font class="color-999">订单状态：</font><font class="color-light-red">待付款</font>&nbsp;&nbsp;<a href="" target="_blank" class="color-blue hover-line">取消订单</a>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="middle" width="10%">铝卷</td>
+							<td align="center" valign="middle" width="10%">苏州首铝</td>
+							<td align="center" valign="middle" width="8%">8011</td>
+							<td align="center" valign="middle" width="8%">H22</td>
+							<td align="center" valign="middle" width="16%">4.5*1500*C</td>
+							<td align="center" valign="middle" width="10%">源龙库</td>
+							<td align="center" valign="middle" width="14%">
+								<p class="color-orange font-s-16 yahei">¥ 82779.2</p>
+							</td>
+							<td align="center" valign="middle" width="8%">1</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+							<td align="center" valign="middle" width="8%">28.46</td>
+						</tr>
+						<tr>
+							<td colspan="10">
+								<div class="order-bottom pt05 pb05 clearfix">
+									<div class="zz"><a href="javascript:;" class="order-click-cert hover-light theme-good-click">填提货函</a></div>
+									<div class="zz ml10"><a href="javascript:;" class="order-click-piao hover-light theme-piao-click">申请开票</a></div>
+									<div class="yy color-999">
+										订单总计：<font class="color-orange font-s-16 yahei">¥ 82779.2</font>&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">1</font>&nbsp;&nbsp;件&nbsp;&nbsp;<font class="color-orange font-s-16 yahei">28.46</font>&nbsp;&nbsp;吨
+									</div>
+								</div>
+								<div class="pt10">
+									<font class="color-999">待付款：</font><font class="color-orange">2时59分57秒</font>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<div class="yeehim-pager mt40 mb40 clearfix">
+						<ul>
+							<li class="prev"><span>上一页</span></li>
+							<li class="current"><span>1</span></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li class="next"><a href="">下一页</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+<div class="theme-popover theme-good" style="height: 408px; margin: -204px 0 0 -200px">
+     <div class="theme-poptit">
+          <a href="javascript:;" title="关闭" class="close layer-close">×</a>
+          <h3 class="font-s-14 font-w-n color-666">填提货函</h3>
+     </div>
+     <div class="theme-popbod dform pt20 pb30">
+		<form action="">
+			<div class="member-common-form">
+				<dl class="clearfix">
+					<dt class="zz">
+						<span class="color-orange">*</span>&nbsp;<font>选择方式：</font>
+					</dt>
+					<dd class="zz dd-txt mt10">
+						<div class="color-999 zz mr10" style="line-height: 16px; font-size: 12px;"><input type="checkbox" /> 整单提货</div>
+						<div class="color-999 zz mr10" style="line-height: 16px; font-size: 12px;"><input type="checkbox" /> 分批提货</div>
+						<div class="color-999 zz" style="line-height: 16px; font-size: 12px;"><input type="checkbox" /> 过户</div>
+					</dd>
+				</dl>
+				<dl class="clearfix mt10">
+					<dt class="zz">
+						<span class="color-orange">*</span>&nbsp;<font>提货凭证：</font>
+					</dt>
+					<dd class="zz dd-txt">
+						<input type="text" class="in-txt">
+					</dd>
+				</dl>
+				<dl class="clearfix mt10">
+					<dt class="zz">
+						<font>备注信息：</font>
+					</dt>
+					<dd class="zz dd-txt">
+						<textarea name="" id="" cols="30" rows="10" class="in-area" style="width: 240px; height: 150px;"></textarea>
+					</dd>
+				</dl>
+				<div class="tips margin-auto" style="width: 300px;">
+					<input type="button" class="button-orange mt30 zz" value="确认提交">
+					<input type="button" class="button-gry mt30 zz layer-close" value="关闭">
+				</div>
+			</div>
+		</form>
+     </div>
+</div>
+<div class="theme-popover theme-piao">
+	     <div class="theme-poptit">
+	          <a href="javascript:;" title="关闭" class="close piao-close">×</a>
+	          <h3 class="font-s-14 font-w-n color-666">申请开票</h3>
+	     </div>
+	     <div class="theme-popbod dform pt40">
+			<form action="">
+				<div class="member-common-form">
+					<dl class="clearfix">
+						<dt class="zz color-666">
+							<font class="color-orange">*</font>开票抬头：
+						</dt>
+						<dd class="zz dd-txt">
+							<input type="text" class="in-txt" value="250122090@qq.com">
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt class="zz color-666">
+							&nbsp;
+						</dt>
+						<dd class="zz dd-txt">
+							<span class="color-light-red">请填写开票抬头</span>
+						</dd>
+					</dl>
+					<dl class="mt30 clearfix">
+						<dt class="zz color-666">
+							&nbsp;
+						</dt>
+						<dd class="zz dd-txt">
+							<input type="submit" class="btn-submit hover-light" value="提交申请">
+						</dd>
+					</dl>
+				</div>
+			</form>
+	     </div>
+	</div>
+<div class="theme-popover-mask"></div>
+</body>
+</html>

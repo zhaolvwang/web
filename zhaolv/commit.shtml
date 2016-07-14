@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>找铝网 - 发布采购需求</title>
+<!--#include file="head.htm" -->
+
+</head>
+<body style="background-color: #FAFAFA;">
+	<div class="container-grid">
+		<div class="purchase-header pt20 pb20 clearfix">
+			<div class="zz logo"><a href="/"><img src="images/logo.png" alt="" /></a></div>
+			<div class="purchase-tit zz mt30 ml40 yahei">发布采购需求</div>
+		</div>
+		<div class="purchase-main">
+			<div class="txt-center mt40 mb40"><img src="images/purchase.jpg" alt="" class="margin-auto" /></div>
+			<form action="">
+				<div class="margin-auto" style="width: 610px;">
+					<dl class="member-common-form clearfix mb20">
+						<dt class="zz">
+							<span class="color-orange">*</span>&nbsp;公司名称：
+						</dt>
+						<dd class="zz">
+							<input type="text" class="in-txt" style="width: 490px;">
+						</dd>
+						<dd class="zz color-orange ml10">*</dd>
+					</dl>
+					<dl class="member-common-form clearfix mb20">
+						<dt class="zz">
+							<span class="color-orange">*</span>&nbsp;联系人：
+						</dt>
+						<dd class="zz">
+							<input type="text" class="in-txt" style="width: 490px;">
+						</dd>
+						<dd class="zz color-orange ml10">*</dd>
+					</dl>
+					<dl class="member-common-form clearfix mb20">
+						<dt class="zz">
+							<span class="color-orange">*</span>&nbsp;手机号码：
+						</dt>
+						<dd class="zz">
+							<input type="text" class="in-txt" style="width: 490px;">
+						</dd>
+						<dd class="zz color-orange ml10">*</dd>
+					</dl>
+					<dl class="member-common-form clearfix">
+						<dt class="zz">
+							&nbsp;&nbsp;
+						</dt>
+						<dd class="zz">
+							<textarea name="" id="" class="in-area line-h-24" style="width: 490px; height: 250px;" placeholder="写下您的真实需求，包括牌号、品类和数量等，收到后我们会立即给您回电确认，剩下就交给我们吧"></textarea>
+						</dd>
+					</dl>
+				</div>
+				<div class="margin-auto mt60 mb60" style="width: 200px;">
+					 <input type="submit" class="btn-submit" value="提交需求" />
+				</div>
+			</form>
+		</div>
+		<div class="grid-12 mt40 mb40">
+			<p class="txt-center">
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">关于我们</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">法律声明</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">诚聘英才</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">投资洽谈</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<a href="" target="_blank" class="color-666 hover-orange hover-line">友情链接</a>
+			</p>
+			<p class="color-666 txt-center mt10">COPYRIGHT 铝材超市 版权所有 www.zhaolv.com 苏ICP备 24501342213915号</p>
+			<p class="txt-center mt15"><img src="images/index_04.gif" alt="" class="margin-auto" /></p>
+		</div>
+	</div>
+</body>
+</html>

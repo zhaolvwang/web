@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span><a href="purchase_all.shtml">全部<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="purchase_check.shtml">审核中<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="purchase_pass.shtml">审核通过<i></i></a></span>
+						<span class="line-ver"></span>
+						<span><a href="purchase_nopass.shtml">审核未通过<i></i></a></span>
+						<span class="line-ver"></span>
+						<span class="current"><a href="purchase_deal.shtml">已成交<i></i></a></span>
+					</div>
+					<div class="member-search mt20 mb20 clearfix">
+						<div class="dv-tit zz">采购单编号：</div>
+						<div class="dv-txt zz ml05">
+							<input type="text" class="in-txt" placeholder="请输入采购单编号">
+						</div>
+						<div class="dv-btn zz ml10">
+							<input type="submit" class="btn-search" value="查询">
+						</div>
+					</div>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table-head">
+						<tr class="bg">
+							<td align="left" valign="middle" width="20%">产品信息</td>
+							<td align="center" valign="middle" width="12%">单价/吨</td>
+							<td align="center" valign="middle" width="10%">数量</td>
+							<td align="center" valign="middle" width="10%">件重(吨)</td>
+							<td align="center" valign="middle" width="8%">收货地</td>
+							<td align="center" valign="middle" width="8%">运费</td>
+							<td align="center" valign="middle" width="10%">提货方式</td>
+							<td align="center" valign="middle" width="12%">总金额</td>
+							<td align="center" valign="middle" width="12%">状态</td>
+						</tr>
+					</table>
+					<!-- 没有数据时显示
+						<div class="member-data-none">
+							暂无匹配数据
+						</div>
+					 -->
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<table width="100%" border="0" cellspacing="0" cellspadding="0" class="member-data-table mt10">
+						<tr class="bg">
+							<td colspan="9">
+								<div class="clearfix">
+									<span class="zz color-666">采购单编号：G1441015671117</span>
+									<span class="yy color-999">发布时间：2015-01-01</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle" width="20%">
+								<p>铝卷</p>
+								<p class="color-999">8011 H22 4.5*1500*C</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="10%">10</td>
+							<td align="center" valign="middle" width="10%">50</td>
+							<td align="center" valign="middle" width="8%">北京市</td>
+							<td align="center" valign="middle" width="8%">200</td>
+							<td align="center" valign="middle" width="10%">买家自提</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-orange font-s-16 yahei">¥ 182779.2</p>
+							</td>
+							<td align="center" valign="middle" width="12%">
+								<p class="color-light-red">交易成功</p>
+							</td>
+						</tr>
+					</table>
+					<div class="yeehim-pager mt40 mb40 clearfix">
+						<ul>
+							<li class="prev"><span>上一页</span></li>
+							<li class="current"><span>1</span></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li class="next"><a href="">下一页</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

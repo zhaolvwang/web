@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include file="head.htm" -->
+<script src="images/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+</head>
+<body>
+	<!--#include file="header.htm" -->
+	<div class="member-layer">
+		<div class="container-grid">
+			<div class="layer-container clearfix">
+				<div class="member-menu zz">
+					<!--#include file="member_menu.htm" -->
+				</div>
+				<div class="member-body zz">
+					<div class="member-tab">
+						<span class="current"><a href="###">发布采购</a><i></i></span>
+					</div>
+					<div class="send-tips mt15">
+						<ul class="common-txt-list-28">
+							<li><i class="i-dot"></i><span>请填写品种</span></li>
+							<li><i class="i-dot"></i><span>请填写合金牌号</span></li>
+							<li><i class="i-dot"></i><span>请填写品种</span></li>
+							<li><i class="i-dot"></i><span>请填写合金牌号</span></li>
+							<li><i class="i-dot"></i><span>请填写品种</span></li>
+							<li><i class="i-dot"></i><span>请填写合金牌号</span></li>
+						</ul>
+					</div>
+					<form action="">
+						<div class="send-layer mt20 clearfix">
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;品种：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;合金牌号：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;厂家：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;意向价格：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+								<dd class="zz color-999">（元/吨）</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;数量：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+								<dd class="zz color-999 ml10">吨</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;配送方式：
+								</dt>
+								<dd class="zz">
+									<select name="" id="" class="in-txt">
+										<option value="">买家自提</option>
+										<option value="">卖家送货</option>
+									</select>
+								</dd>
+							</dl>
+							<dl class="zz mb15" style="width: 820px;">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;收货地：
+								</dt>
+								<dd class="zz">
+									<select name="" id="" class="in-txt" style="width: 210px;">
+										<option value="">请选择省</option>
+									</select>
+								</dd>
+								<dd class="zz ml10">
+									<select name="" id="" class="in-txt" style="width: 210px;">
+										<option value="">请选择市</option>
+									</select>
+								</dd>
+								<dd class="zz ml10">
+									<select name="" id="" class="in-txt" style="width: 210px;">
+										<option value="">请选择区/县</option>
+									</select>
+								</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;付款时间：
+								</dt>
+								<dd class="zz">
+									<input type="text" class="in-txt" />
+								</dd>
+								<dd class="zz color-999 ml10">天</dd>
+							</dl>
+							<dl class="zz mb15">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;交货时间：
+								</dt>
+								<dd class="zz">
+									<input id="d4311" class="Wdate in-txt" type="text" onClick="WdatePicker()" style="width: 240px;"  />
+								</dd>
+							</dl>
+							<dl class="zz mb15" style="width: 820px;">
+								<dt class="zz">
+									<span class="color-orange">*</span>&nbsp;备注：
+								</dt>
+								<dd class="zz">
+									<textarea name="" id="" cols="30" rows="10" class="in-area"></textarea>
+								</dd>
+							</dl>
+							<dl class="zz mt25" style="width: 820px;">
+								<dt class="zz">
+									<input type="submit" class="btn-submit hover-light" value="马上发布" />
+								</dt>
+							</dl>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="footer.htm" -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript">
+        tinymce.init({
+            selector: "#mytextarea",
+			toolbar: "undo redo | styleselect | bold italic | link image | code",
+			plugins: "colorpicker"
+        });
+    </script>
+</head>
+<body>
+    <h1>TinyMCE Getting Started Guide</h1>
+    <form method="post">
+        <textarea id="mytextarea"></textarea>
+    </form>
+</body>
+</html>
